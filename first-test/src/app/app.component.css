@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: auto;
+}
+
+.contain .navbar {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contain .navbar .navbar-nav {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  list-style-type: none;
+}/*# sourceMappingURL=app.component.css.map */
